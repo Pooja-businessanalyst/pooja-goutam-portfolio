@@ -1,0 +1,1 @@
+Open index.html in browser. Replace avatar-placeholder.png with your photo, and project images with real screenshots.
