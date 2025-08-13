@@ -60,6 +60,31 @@ body{
 }
 
 /* Hero */
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 1100px;
+  margin: auto;
+  padding: 2rem;
+  flex-wrap: wrap;
+}
+
+.hero-image img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border: 3px solid #fff;
+}
+
+.hero-text {
+  flex: 1;
+  min-width: 300px;
+}
+
 .hero-section {
   text-align: center;
   padding: 80px 0 60px;
