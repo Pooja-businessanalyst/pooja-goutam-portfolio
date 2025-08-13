@@ -66,8 +66,8 @@ body{
 }
 
 .profile-photo {
-  width: 180px;
-  height: 180px;
+  width: 220px;
+  height: 220px;
   object-fit: cover;
   border-radius: 50%;
   border: 5px solid white;
@@ -93,6 +93,15 @@ body{
 
 .buttons {
   margin-bottom: 30px;
+}
+.hero-buttons {
+  text-align: center; /* center inside container */
+  margin-top: 20px;   /* space above buttons */
+}
+
+.hero-buttons a {
+  display: inline-block; /* keep them side-by-side */
+  margin: 0 8px;         /* space between buttons */
 }
 
 .btn {
