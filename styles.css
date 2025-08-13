@@ -60,96 +60,70 @@ body{
 }
 
 /* Hero */
-.hero-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 2rem;
-  max-width: 1100px;
-  margin: auto;
-  padding: 2rem;
-  flex-wrap: wrap;
+.hero {
+  text-align: center;
+  padding: 50px 20px;
 }
 
-.hero-image img {
-  width: 250px;
-  height: 250px;
+.profile-photo {
+  width: 180px;
+  height: 180px;
   object-fit: cover;
   border-radius: 50%;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-  border: 3px solid #fff;
+  border: 5px solid white;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
 }
 
-.hero-text {
-  flex: 1;
-  min-width: 300px;
+.hero h1 {
+  font-size: 2.2rem;
+  margin-bottom: 15px;
 }
 
-.hero-section {
-  text-align: center;
-  padding: 80px 0 60px;
-  background: linear-gradient(to bottom, #f9faff, #ffffff);
+.hero h1 span {
+  color: #a033ff; /* Accent color */
 }
-.role-badge {
-  display: inline-block;
-  background: #eef2ff;
-  color: #4f46e5;
-  padding: 6px 14px;
-  border-radius: 999px;
-  font-weight: 500;
-  margin-bottom: 16px;
+
+.intro {
+  font-size: 1rem;
+  max-width: 600px;
+  margin: 0 auto 25px;
+  color: #555;
 }
-.hero-section h1 {
-  font-size: 42px;
-  margin-bottom: 12px;
+
+.buttons {
+  margin-bottom: 30px;
 }
-.name-gradient {
-  background: linear-gradient(to right, #4f46e5, #ec4899);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.hero-desc {
-  color: #4b5563;
-  max-width: 650px;
-  margin: 0 auto 28px;
-  font-size: 17px;
-  line-height: 1.6;
-}
-.hero-buttons {
-  display: flex;
-  justify-content: center;
-  gap: 16px;
-  margin-bottom: 40px;
-}
-.btn-primary {
-  background: linear-gradient(to right, #4f46e5, #9333ea);
-  color: white;
-  padding: 12px 22px;
-  border-radius: 8px;
-  font-weight: 600;
-  text-decoration: none;
-}
-.btn-outline {
-  border: 1px solid #c7d2fe;
-  padding: 12px 22px;
-  border-radius: 8px;
-  color: #4f46e5;
-  font-weight: 600;
-  text-decoration: none;
-}
+
 .btn {
   display: inline-block;
-  padding: 0.75rem 1.5rem;
-  font-size: 1rem;
-  color: white;
-  background-color: #6C63FF;
-  border-radius: 8px;
+  padding: 10px 20px;
+  margin: 5px;
   text-decoration: none;
-  transition: background-color 0.3s ease;
+  border-radius: 6px;
+  font-weight: 500;
 }
 
-.btn:hover {
-  background-color: #574bff;
+.btn.primary {
+  background-color: #6c63ff;
+  color: white;
+}
+
+.btn.secondary {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.stats div {
+  font-size: 0.95rem;
 }
 
 
