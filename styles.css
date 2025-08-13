@@ -102,6 +102,16 @@ body{
 .button-container a {
   margin: 0 10px;
 }
+.buttons {
+  display: flex;
+  justify-content: center; /* Centers buttons horizontally */
+  gap: 15px; /* Space between buttons */
+  margin-top: 20px; /* Space above buttons */
+}
+
+.buttons a {
+  display: inline-block;
+}
 
 .btn {
   display: inline-block;
